@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>Case Study</title>
-  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Case-study</title>
+  <style class="text/css">
+  html{
+  background-color: green;
+}
+*{
+  box-sizing: border-box;
+  }
+section{
+  border: 3px solid orange;
+  height: 23em;
+  margin: 5%;
+  overflow: auto
+}
+article img {
+  max-width:50%;
+  display: block;
+}
+
+section img #twenty-five
+{
+ float: right;
+}
+
+#alinks img{
+  max-height: 10%;
+}
+
+#clients{
+  background-color: white;
+}
+</style>
   
-  <body>
-    <h1> bark </h1>
+</head>
+<body>
+<h1> bark </h1>
   
   <nav class="pop-up"> *menu* </nav>
   
@@ -17,23 +49,104 @@
       </article>
       
       <article id="twenty-five">
-        <a href="#">
+        <a href="http://barkdesignchicago.com/work/site-design-book/">
+	<img src="http://barkdesignchicago.com/content/uploads/2016/03/IMG_6534_web-1.jpg">
       </article>
       
       <article id="degrees">
-        <a href="#">
+        <a href="http://barkdesignchicago.com/work/one-million-degrees-collateral/">
+	<img src="http://barkdesignchicago.com/content/uploads/2017/01/IMG_1391-Edit-e1484153898910.jpg"></a>
       </article>
       
       <article id="latin">
-        <a href="#">
+        <a href="http://barkdesignchicago.com/work/endowment-campaign/">
+	<img src="http://barkdesignchicago.com/content/uploads/2016/03/IMG_6156_web.jpg"</a>
       </article>
       
       <article id="asm">
-        <a href="#">
+        <a href="http://barkdesignchicago.com/work/after-school-matters-collateral/">
+	<img src="http://barkdesignchicago.com/content/uploads/2016/01/asm_partnerships_website_mockup3.jpg"</a>
       </article>
       
       <article id="fm">
-        <a href="#">
+        <a href="http://barkdesignchicago.com/work/field-museum-annual-reports/">
+	<img src="http://barkdesignchicago.com/content/uploads/2016/03/IMG_9543-Edit3.jpg"></a>
       </article>
+    </section>
+        
+        <aside class="vmw"> view more work</aside>
+        
+    <section class="about">
+      <p> Bark was founded on the belief that great design can 
+        embolden those who are expanding on the promise of our 
+        communities. Since 1997, we’ve been pushing the boundaries 
+        of design to produce unexpected and extraordinary work 
+        for remarkable organizations of all sizes, from start-ups 
+        to large corporations.</p>
+        <article id="alinks">
+      <img src="http://barkdesignchicago.com/content/uploads/2016/02/branding.svg">Brand
+      
+      <img src="http://barkdesignchicago.com/content/uploads/2016/02/message.svg">Message
+      
+      <img src="http://barkdesignchicago.com/content/uploads/2016/02/print-02-1.svg">Print
+      
+      <img src="http://barkdesignchicago.com/content/uploads/2016/02/interactive.svg">Interactive
+      
+      <img src="http://barkdesignchicago.com/content/uploads/2016/02/etc-1.svg">Etcetera
+        </article>
+      </section>
+        <aside class="vmau"> view more about us</aside>
+        
+        <section id="clients">
+          <h2>our clients</h2>
+          
+        </section>
+        
+        <aside class="vaoc"> view all our clients</aside>
+        
+        <section id="quote">
+          <p>“Working with their talented group of professional designers for ten years, 
+	  I have absolute confidence in their dedication to a project, superior creative 
+	  product and service ethic that ensures clients are heard and happy. 
+	  They have delivered outstanding donor communications, annual reports, 
+	  invitations, newsletters, stewardship reports and highly effective proposals. 
+	  It is a pleasure working with Bark and they have my highest endorsement.”
+	  
+			Charles L. Katzenmeyer, Vice President, Institutional Advancement
+            The Field Museum</p>
+        </section>
+          
+          <aside class="vowftfm"> view our work for the feild museum</aside>
+          
+          <section id="info">
+            <p> our work
+              about us
+              news
+              careers
+              contact us</p>
+            
+            <p>P: 773.539.7185 
+          info@barkdesignchicago.com
+
+          3115 W. Montrose Avenue
+          Chicago, IL 60618
+
+              Privacy Info</p>
+            
+            <p>Congrats to over 31,000 
+              Chicago youth who successfully 
+              completed @ChicagosMayor… 
+              https://t.co/IEPYIxUeIK </p>
+          </section>
+          
+          <footer id="trademark">
+            <p>BARK DESIGN, 
+            A CHICAGO-BASED DESIGN FIRM 
+            SPECIALIZING IN THE UNEXPECTED 
+            AND THE EXTRAORDINARY. 
+              © 1997-2017 All rights reserved.</p>
+          </footer>
+</body>
+</html>
       
       
