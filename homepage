@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Case Study</title>
+  </head>
+  
+  <body>
+    <h1> bark </h1>
+  
+  <nav class="pop-up"> *menu* </nav>
+  
+    <section class="work">
+    
+      <article id="flat">
+        <p>Design that makes the difference</p>
+      </article>
+      
+      <article id="twenty-five">
+        <a href="#">
+      </article>
+      
+      <article id="degrees">
+        <a href="#">
+      </article>
+      
+      <article id="latin">
+        <a href="#">
+      </article>
+      
+      <article id="asm">
+        <a href="#">
+      </article>
+      
+      <article id="fm">
+        <a href="#">
+      </article>
+      
+      
