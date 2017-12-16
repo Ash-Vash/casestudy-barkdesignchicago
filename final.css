@@ -1,0 +1,279 @@
+html{
+  background-color: #2f358f;
+}
+*{
+	margin: 0px;
+	  padding: 0px;
+	  box-sizing: border-box;
+	  font-size: 100%;
+	  font-family: sans-serif;
+  }
+  aside{
+	  float:right;
+	  writing-mode:vertical-rtl;
+	  text-orientation:sideways;
+  }
+ #title{
+  	font-size:2em;
+  	font-weight: bold;
+	font-style: italic;
+	color: white;
+	padding:.25em;
+	position: absolute;
+	left: .60em;
+	top:0;
+  }
+  
+  .pop-up{
+	  color:white;
+	  background-color:#40aea8;
+  }
+  .pop-up, em{
+	  position:fixed;
+  }
+  em{
+	  left:.25em;
+	  background-color: #2f358f
+  }
+#work{
+    border: 3px solid hidden;
+    height: 70em;
+	column-count: 2;
+	column-gap:0;
+	column-width:50%;
+	position: relative;
+	margin: 3em;
+	display:block;
+}
+
+
+span{
+	display:table-row;
+}
+#flat{
+	text-align: center;
+	font-size: 1.75em;
+	font-weight: bold;
+	letter-spacing: .15em;
+	line-height: 1.75em;
+	padding: .5em 2em;
+	max-width: 50%; 
+	background-color:#a6266a;
+	position: absolute;
+	top:0;
+	left:0;
+	display:inline;
+	
+}
+#flat, aside{
+	color: white;
+}
+
+article img {
+  padding:0;
+  margin: 0;
+  max-width: 100%;
+  
+}
+#twenty-five, #latin, #fm{
+	float: right;
+	
+}
+#twenty-five{
+	
+	position: absolute;
+	left:50%;
+	top: 0;
+}
+
+#degrees{
+	
+	position: absolute;
+	right:50%;
+	top: 33%;
+}
+
+#latin{
+
+	position: absolute;
+	left:50%;
+	top: 33%;
+}
+
+#asm{
+	
+	position: absolute;
+	bottom:0;
+	right:50%;
+}
+#fm{
+	
+	position: absolute;
+	bottom:0;
+	left:50%;
+}
+
+#about{
+    border-top: 3px solid hidden;
+	border-bottom:3px solid hidden;
+    height: 25em;
+	background-color:#40aea8;
+	background-size: 100%;
+	color: #2f358f;
+	padding:3em 3em 12em 3em;
+	font:bold 1.5em helvetica;
+	text-align: center;
+	line-height: 1.45em;
+    border: 3px solid hidden;
+	margin-left:0;
+	margin-right: 0;
+}
+
+#cyn{
+	max-width: 40em;
+}
+#fff{
+	font: normal .75em helvetica;
+	white-space:nowrap;
+	display:inline-flex;
+	
+	
+}
+#tilde{
+	padding: 1.75em;
+	color: white;
+}
+
+#brand{
+	background-image: url("https://barkdesignchicago.com/content/uploads/2016/02/branding.svg");
+}
+#mes{
+	background-image: url("https://barkdesignchicago.com/content/uploads/2016/02/message.svg")
+}
+#print{
+	background-image: url("https://barkdesignchicago.com/content/uploads/2016/02/print-02-1.svg")
+}
+#int{
+	background-image: url("https://barkdesignchicago.com/content/uploads/2016/02/interactive.svg")
+}
+#etc{
+	background-image: url("https://barkdesignchicago.com/content/uploads/2016/02/etc-1.svg")
+}
+
+#brand, #mes, #print,#int,#etc{
+	background-repeat: no-repeat;
+	background-position: top;
+	display: block;
+	padding: 1em;
+	line-height: 2em;
+	max-width: 40em;
+}
+#clients{
+	border:1px solid hidden;
+	height:15em;
+	margin:6.5em 1.5em 0 1.5em;
+  background-color:#e6e6e6;
+  color:#e9569c;
+  text-align:center;
+  padding:2em;
+  font-size: 2em;
+}
+
+#diff{
+	font-weight:normal;
+}
+#quote{
+    border-top: 3px solid hidden;
+	border-bottom:3px solid hidden;
+    height: 25em;
+	background:#4da81e no-repeat left;
+	width:100%;
+	height:30em;
+	padding: 3em;
+	line-height: 2em;
+	position: relative;
+	
+}
+
+#time{
+	max-height:100%;
+	float: left;
+	position: absolute;
+	left:0;
+	top: 0;
+	display: inline-block;
+}
+
+q{
+	color:white;
+}
+
+#name{
+	color:#f6da71;
+	max-width: 15em;
+}
+blockquote{
+	border: 1px solid hidden;
+	padding-left: 5em;
+	height: 27em;
+	max-width:50%;
+	float:right;
+	text-align: left;
+	display:inline-block;
+	overflow: hidden;
+	text-overflow:clip;
+	
+}
+#info{
+	border: 3px solid hidden;
+	margin: 3em;
+	background-color:#242574;
+	position: relative;
+	padding: 2em 2em 2em 1em;
+	height: 24em;
+}
+ul {
+	list-style-type: none;
+	color:#e9569c;
+	position: absolute;
+	top:1.75em;
+	left:1.25em;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+#info a
+{
+	color:#e9569c;
+	text-decoration:none;
+}
+#info a:hover{
+	color:#40aea8;
+}
+#reach{
+	color: white;
+	font-size: .75em;
+	line-height: 2em;
+	position: absolute;
+	left: 15em;
+	top: 9em;
+	padding-left:3em;
+}
+#twitter{
+	color:#1dafec;
+	position: absolute;
+	left: 18em;
+	text-align:left;
+	max-width: 75%;
+	font-size: 1.5em;
+	line-height: 1.75em;
+	font-weight: bold;
+	padding-right:2em;
+}
+footer{
+	color:#f6da71;
+	font-size: .85em;
+	text-align: center;
+	margin:1em 1em 2em 1em;
+	padding: 1em 1em 2em 1em;
+}
